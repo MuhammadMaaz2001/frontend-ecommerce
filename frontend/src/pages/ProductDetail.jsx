@@ -96,7 +96,7 @@ const ProductDetail = () => {
   }
 
   const images = product.images && product.images.length > 0 
-    ? product.images.map(img => `http://localhost:5000/${img}`)
+    ? product.images.map(img => `http://localhost:5000${img}`)
     : ['https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=600'];
 
   return (

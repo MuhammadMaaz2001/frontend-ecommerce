@@ -171,7 +171,7 @@ const Checkout = () => {
               {items.map((item) => (
                 <div key={item._id} className="flex items-center space-x-3">
                   <img
-                    src={item.images?.[0] ? `http://localhost:5000/${item.images[0]}` : 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=100'}
+                    src={item.images?.[0] ? `http://localhost:5000${item.images[0]}` : 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=100'}
                     alt={item.name}
                     className="w-12 h-12 object-cover rounded"
                   />

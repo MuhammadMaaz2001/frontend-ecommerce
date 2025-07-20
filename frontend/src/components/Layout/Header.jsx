@@ -26,7 +26,7 @@ const Header = () => {
           </Link>
 
           {/* Search Bar */}
-          <div className="hidden md:flex flex-1 max-w-md mx-8">
+          {/* <div className="hidden md:flex flex-1 max-w-md mx-8">
             <div className="relative w-full">
               <input
                 type="text"
@@ -35,7 +35,7 @@ const Header = () => {
               />
               <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-4 h-4" />
             </div>
-          </div>
+          </div> */}
 
           {/* Navigation */}
           <nav className="flex items-center space-x-4">
@@ -90,7 +90,7 @@ const Header = () => {
         </div>
 
         {/* Mobile Search */}
-        <div className="md:hidden mt-4">
+        {/* <div className="md:hidden mt-4">
           <div className="relative">
             <input
               type="text"
@@ -99,7 +99,7 @@ const Header = () => {
             />
             <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-4 h-4" />
           </div>
-        </div>
+        </div> */}
       </div>
     </header>
   );

@@ -65,7 +65,7 @@ const Cart = () => {
         <div className="lg:col-span-2 space-y-4">
           {items.map((item) => {
             const imageUrl = item.images && item.images.length > 0 
-              ? `http://localhost:5000/${item.images[0]}` 
+              ? `http://localhost:5000${item.images[0]}` 
               : 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=200';
 
             return (

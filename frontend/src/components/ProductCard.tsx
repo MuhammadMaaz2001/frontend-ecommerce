@@ -34,7 +34,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
   };
 
   const imageUrl = product.images && product.images.length > 0 
-    ? `http://localhost:5000/${product.images[0]}` 
+    ? `http://localhost:5000${product.images[0]}` 
     : 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=400';
 
   return (
