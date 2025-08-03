@@ -135,7 +135,7 @@ const Login = () => {
           </form>
 
           {/* Footer */}
-          <div className="mt-8 text-center">
+          <div className="mt-10 text-center">
             <p className="text-gray-600">
               Don't have an account?{' '}
               <Link 
